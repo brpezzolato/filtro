@@ -45,12 +45,19 @@
               <a class="nav-link" href="#">Resultado</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form
+            class="d-flex"
+            role="search"
+            action="https://www.youtube.com/results"
+            method="get"
+            target="_blank"
+          >
             <input
               class="form-control me-2 barra-pesquisa"
               type="search"
-              placeholder="Search"
+              placeholder="Buscar no YouTube"
               aria-label="Search"
+              name="search_query"
             />
             <button class="btn-barra" type="submit">Search</button>
           </form>
@@ -88,8 +95,7 @@
             <div class="ms-2 me-auto">
               <div class="fw-bold">Algodão</div>
               Exemplos: Algodão em bola, Algodão em tiras, etc.
-              <span
-                class="badge rounded-pill d-flex d-sm-none mt-1"
+              <span class="badge rounded-pill d-flex d-sm-none mt-1"
                 >Quantidade: 25 gramas</span
               >
             </div>
@@ -103,8 +109,7 @@
             <div class="ms-2 me-auto">
               <div class="fw-bold">Areia</div>
               Exemplos: Areia de construção (limpa), Areia de aquario, etc.
-              <span
-                class="badge rounded-pill d-flex d-sm-none mt-1"
+              <span class="badge rounded-pill d-flex d-sm-none mt-1"
                 >Quantidade: 170 gramas</span
               >
             </div>
@@ -118,8 +123,7 @@
             <div class="ms-2 me-auto">
               <div class="fw-bold">Pedras pequenas, médias e grandes.</div>
               Exemplos: Brita, Pedrinhas de aquario, Pedras de jardim etc.
-              <span
-                class="badge rounded-pill d-flex d-sm-none mt-1"
+              <span class="badge rounded-pill d-flex d-sm-none mt-1"
                 >Quantidade: Variada</span
               >
             </div>
